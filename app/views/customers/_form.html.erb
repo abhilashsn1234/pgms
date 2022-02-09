@@ -27,6 +27,11 @@
   </div>
 
   <div>
+    <%= form.label :room_number, style: "display: block" %>
+    <%= select("post","room_id",Room.all.collect {|room| [room.id]}, :prompt => "Select room id" ) %>
+  </div>
+
+  <div>
     <%= form.submit %>
   </div>
 <% end %>
