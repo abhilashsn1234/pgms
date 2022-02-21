@@ -33,7 +33,7 @@ class FloorsController < ApplicationController
       end
     end
   end
-
+  
   # PATCH/PUT /floors/1 or /floors/1.json
   def update
     respond_to do |format|

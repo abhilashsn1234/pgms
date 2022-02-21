@@ -1,0 +1,2 @@
+class PayingGuest < ApplicationRecord
+end

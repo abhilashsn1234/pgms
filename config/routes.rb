@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :paying_guests
   resources :guests
   resources :floors
   resources :customers

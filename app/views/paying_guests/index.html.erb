@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Paying guests</h1>
+
+<div id="paying_guests">
+  <% @paying_guests.each do |paying_guest| %>
+    <%= render paying_guest %>
+    <p>
+      <%= link_to "Show this paying guest", paying_guest %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New paying guest", new_paying_guest_path %>

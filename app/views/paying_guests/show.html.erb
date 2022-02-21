@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @paying_guest %>
+
+<div>
+  <%= link_to "Edit this paying guest", edit_paying_guest_path(@paying_guest) %> |
+  <%= link_to "Back to paying guests", paying_guests_path %>
+
+  <%= button_to "Destroy this paying guest", @paying_guest, method: :delete %>
+</div>
